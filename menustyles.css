@@ -1,0 +1,204 @@
+html { 
+    background: url(BackgroundSwirl.png) repeat; 
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: auto;
+    min-height: 100%;
+    width: 100%;
+ }
+.container {
+    width: 900px;
+    font-size: medium;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    color: #b2b99f;
+    background-color: #f2f7e6;
+    border-radius: 25px;
+   
+}
+
+.header {
+    border-radius: 25px;
+    background-color: #0e2e2b;
+    color: #D0D6C1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 700px;
+    height: 150px;
+    margin-top: 150px;
+}
+
+.logo {
+    height: 40px;
+    width: 500px;
+    float: left;
+    font-size: 64px;
+    color: #FDF5E6;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.pizza {
+    filter: sepia(10%);
+    background-repeat: no-repeat;
+    float: right;
+    height: 375px;
+    border-radius: 50%;
+    margin: auto;
+    width: 375px;
+    text-align: center;
+    color:rgb(92, 102, 56);
+}
+
+.pizza:hover{
+    filter: sepia(100%);
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 375px;
+    width: 375px;
+     border-radius: 50%;
+     margin: auto;
+     display: block;
+}
+.footer {
+    width: 900px;
+    height: 170px;
+    background-color: #0e2e2b;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+.p2 { font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 15px;}
+
+.centreleft {
+    width: 450px;
+    height: 75px;
+    float: left;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.centreright {
+    float: right;
+    width: 450px;
+    height: 50%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    overflow: hidden;
+    display: block;
+}
+
+.socialmedia {
+    display: block;
+    width: 400px;
+    height: 60%;
+    float: left;
+    list-style-type: none;
+    
+}
+.wordpress {
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+
+.wordpress img {width: 50px; height: 50px;}
+
+.instagram {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+
+.instagram img {width: 50px; height: 50px;}
+
+.vimeo {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+.vimeo img {width: 50px; height: 50px;}
+
+.behance {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+.behance img {width: 50px; height: 50px;}
+
+.linkedin {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+
+.linkedin img {width: 50px; height: 50px;}
+
+
+.bottom {
+    clear: both;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.centreleft {
+    line-height: 5;
+}
+
+.contact, .copyright {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}

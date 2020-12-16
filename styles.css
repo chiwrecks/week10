@@ -1,0 +1,482 @@
+html { 
+    background: url(BackgroundSwirl.png) repeat; 
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: auto;
+    min-height: 100%;
+    width: 100%;
+ }
+.container {
+    width: 900px;
+    font-size: medium;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    color: #b2b99f;
+    background-color: #f2f7e6;
+    border-radius: 25px;
+   
+}
+
+.header {
+    border-radius: 25px;
+    background-color: #0e2e2b;
+    color: #D0D6C1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 700px;
+    height: 150px;
+    margin-top: 150px;
+}
+
+.logo {
+    height: 40px;
+    width: 500px;
+    float: left;
+    font-size: 64px;
+    color: #FDF5E6;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.pizza {
+    filter: sepia(10%);
+    background-repeat: no-repeat;
+    float: right;
+    height: 375px;
+    border-radius: 50%;
+    margin: auto;
+    width: 375px;
+    text-align: center;
+    color:rgb(92, 102, 56);
+}
+
+.pizza:hover{
+    filter: sepia(100%);
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 375px;
+    width: 375px;
+     border-radius: 50%;
+     margin: auto;
+     display: block;
+}
+
+h2 {
+    letter-spacing: .5rem;
+    color: #0b5a53;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 50;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;}
+  
+  h3 {
+    letter-spacing: .2rem;
+    color: #0b5a53;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    
+  }
+
+  h4 {
+    letter-spacing: .2rem;
+    color: #0b5a53;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+h5 {
+    letter-spacing: .2rem;
+    color: #0b5a53;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    font-size: 40px;
+    margin-top: 150px;
+  }
+
+.about {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(92, 102, 56);}
+
+.square {
+    margin: auto;
+    height: 800px;
+    width: 800px;
+    overflow: hidden;
+    color: #0b5a53;
+    text-align: center;
+    padding: 10px;
+    background-color: #9BA389;}
+
+.menu:hover{
+    opacity: 1;
+    transition: 0.3s;
+    font-size: 60px;
+    filter: sepia(0%);}
+
+.menu {
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    display: block;
+    filter: sepia(10%);
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size: 40px;
+    background-color: #9BA389;}
+
+.offers:hover{
+    opacity: 1;
+    transition: 0.3s;
+    font-size: 50px;
+    filter: sepia(0%);
+}
+.offers{
+    overflow: hidden;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    display: block;
+    filter: sepia(10%);
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size: 40px;
+    color: #0b5a53;
+    background-color: #9BA389;
+}
+
+.offers img{ 
+    width: 400px;
+    height:400px;}
+
+.cocktails:hover{
+    opacity: 1;
+    transition: 0.3s;
+    font-size: 50px;
+    filter: sepia(0%);
+
+}
+.cocktails {
+    overflow: hidden;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    display: block;
+    filter: sepia(10%);
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size: 40px;
+    background-color: #9BA389;
+}
+
+.orders:hover{
+    opacity: 1;
+    transition: 0.3s;
+    font-size: 50px;
+    filter: sepia(0%);
+
+}
+.orders {
+    overflow: hidden;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    display: block;
+    filter: sepia(10%);
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size: 40px;
+    background-color: #9BA389;
+}
+
+.menu, .offers, .cocktails, .orders {
+    width: 50%;
+    height: 50%;
+    background-color: #9BA389;
+    float: left;
+}
+
+.footer {
+    width: 900px;
+    height: 170px;
+    background-color: #0e2e2b;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+.p2 { font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 15px;}
+
+.centreleft {
+    width: 450px;
+    height: 75px;
+    float: left;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.centreright {
+    float: right;
+    width: 450px;
+    height: 50%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    overflow: hidden;
+    display: block;
+}
+
+.socialmedia {
+    display: block;
+    width: 400px;
+    height: 60%;
+    float: left;
+    list-style-type: none;
+    
+}
+.wordpress {
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+
+.wordpress img {width: 50px; height: 50px;}
+
+.instagram {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+
+.instagram img {width: 50px; height: 50px;}
+
+.vimeo {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+.vimeo img {width: 50px; height: 50px;}
+
+.behance {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+.behance img {width: 50px; height: 50px;}
+
+.linkedin {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-size: 45px;
+}
+
+.linkedin img {width: 50px; height: 50px;}
+
+
+.bottom {
+    clear: both;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.centreleft {
+    line-height: 5;
+}
+
+.contact, .copyright {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.mobile{ height: 0px;
+width: 0px;
+padding: 0px;
+font-size: 0px;}
+.menu2, .orders2, .cocktails2, .offers2 {
+ visibility: hidden;width: 0;
+height: 0;}
+.mobile img{ height: 0px;
+    width: 0px;
+    padding: 0px;
+    font-size: 0px;}
+    .menu2 img, .orders2 img, .cocktails2 img, .offers img {
+     visibility: hidden;width: 0;
+    height: 0;}
+    
+@media only screen and (max-width: 600px) {
+
+    .container {margin:auto;
+    padding: 10px;
+    float: left;
+    background: url(BackgroundSwirl.png) repeat; }
+
+    .pizza {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    }
+
+    .logo{ 
+        text-align: center;
+        width: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .about {
+        text-align: center;
+        font-size: 30px;
+        float: none;
+        padding: 5px;
+        background-color: #f2f7e6;
+        border-radius: 10px;
+        font-style: normal;
+    }
+
+    .square {
+        float:none;
+        height: 0px;
+        width: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .mobile { 
+        height: 40px;
+        width: 500px;
+        font-size: 90px;
+        text-align: center;
+        color: #FDF5E6;
+        margin: auto;
+        text-decoration: underline;
+        border-radius: 25px;
+        padding: 50px;
+        width: 700px;
+        height: 150px;
+        clear: both;
+        border-radius: 25px;
+        background-color: #58615d;
+        color: #D0D6C1;
+    }
+
+    .header { 
+        height: 0px;
+        width: 0px;
+        padding: 0px;
+        margin: 0%;
+    }
+
+    .menu2, .orders2, .cocktails2, .offers2 {
+        height: 400px;
+        width: 400px;
+        background-color: #f2f7e6;
+        text-align: center;
+        font-size: 70px;
+        font-display: block;
+        margin: auto;
+        
+    }
+
+  
+    .menu2 {
+        
+        text-align: center;
+        margin: auto;
+        background-color: orchid;
+        background-image: url(menu.png);
+        width: 400px;
+        height: 400px;}
+        
+
+
+    .menu, .orders, .cocktails, .offers{
+        height: 0px;
+        width: 0px;
+        padding: 0px;
+        margin: 0%;
+        font-size: 0px;
+    }
+
+    .h6, .h7, .h8, .h9 {
+        letter-spacing: .5rem;
+        color: #fdfffe;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 60px;
+        font-weight: 50;
+        text-align: center;
+        height: 100px;
+        width: 400px;
+        margin: auto;
+        margin-top: 150px;
+    
+      }
+}
